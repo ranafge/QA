@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663142324676' stop='1663142328872'>
+    <name>Switch to page#2</name>
+    <title>Switch to page#2</title>
+    <test-cases>
+        <test-case start='1663142324677' status='broken' stop='1663142328870'>
+            <name>should switch to next page</name>
+            <title>should switch to next page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1663142324685' status='passed' stop='1663142328576'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='efed2ed9-3e15-4098-afdb-f5ac1f1292e1-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663142328582' status='passed' stop='1663142328867'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7b05d274-acff-4828-aa18-35100586c453-attachment.png' type='image/png' size='94496'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>windowPage.click is not a function</message>
+                <stack-trace>TypeError: windowPage.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\my pc\Documents\QA\test\specs\switchWindow.e2e.js:6:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

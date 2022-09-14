@@ -1,0 +1,3 @@
+{
+  "url": "http://quotes.toscrape.com/async%20newPage2()%20%7B%20%20%20%20%20%20%20%20await%20this.link.click();%20%20%20%20%7D"
+}
